@@ -1,0 +1,185 @@
+.sidenav_container {
+  min-width: 60px; 
+  height: calc(100vh - 230px);
+}
+
+.jim {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.btn_blue {
+  margin: 0px 0px 30px; 
+  max-width: 90%; 
+  width: 100%; 
+  padding: 8px 30px; 
+  background: #01599A; 
+  font-size: 15px; 
+  text-align: left; 
+  color: #fff;
+  display: inline-block;
+  float:none;
+  
+}
+.sidenav {
+  margin-top:12px;
+  height: 100%; 
+  width: 230px; 
+  z-index: 1;
+  background-color: #fff; 
+  overflow-x: hidden; 
+  transition: 0.5s; 
+  padding-top: 0px;
+  text-align: center;
+}
+.sidenav button {
+  background: none; 
+  box-shadow: none; 
+  width:100%; 
+  border:none; 
+  float: left; 
+  text-align: left;
+}
+.sidenav a {
+  font-size: 15px; 
+  text-align: left; 
+  color:#7C7C7C; 
+  margin:0px; 
+  padding:10px 15px; 
+  width:100%; 
+  border:none; 
+  float: left;
+  line-height: 30px;
+}
+.sidenav a:hover {
+  color: #fff; 
+  background: #01599A;
+}
+.sidenav .closebtn { 
+  position: absolute; 
+  top: 0; 
+  right: 25px; 
+  font-size: 36px; 
+  margin-left: 50px;}
+
+.sidenav .closebtn:hover {background:none;}
+.sidenav button.btn_blue {
+  margin: 0px 0px 30px; 
+  max-width: 90%; 
+  width: 100%; 
+  padding: 7px 30px 7px 20px; 
+  background: #01599A; 
+  font-size: 15px; 
+  text-align: left; 
+  color: #fff;
+  display: inline-block;
+  float:none;
+  border-radius:8px;
+}
+span{
+  width:25px; 
+  height:25px; 
+  padding: 0px; 
+  margin:8px 0px 0px; 
+  float: left;
+  
+}
+.sidenav button {padding:0px}
+.ic_plus {
+  width:25px; 
+  height:25px; 
+  padding: 0px; 
+  margin:8px 0px 0px; 
+  float: left;
+  background:url(/assets/img/my-profile.png) no-repeat 0 3px;
+}
+
+.ic_home {
+  width: 30px; 
+  height: 30px; 
+  padding: 0px; 
+  margin: 0px; 
+  float: left;
+  background:url(/assets/images/ic-siderbar.png) no-repeat 0 3px;
+}
+.sidenav a:hover .ic_home {background-position: -41px 3px;}
+
+.ic_ride {
+  width: 30px; 
+  height: 30px; 
+  padding: 0px; 
+  margin: 0px; 
+  float: left;
+  background:url(/assets/images/ic-siderbar.png) no-repeat 0 -34px;
+}
+.sidenav a:hover .ic_ride {background-position: -41px -34px;}
+
+.ic_visit {
+  width: 30px; 
+  height: 30px; 
+  padding: 0px; 
+  margin: 0px; 
+  float: left;
+  background:url(/assets/images/ic-siderbar.png) no-repeat -0 -69px;
+}
+.sidenav a:hover .ic_visit {background-position: -41px -69px;}
+
+.ic_stay {
+  width: 30px; 
+  height: 30px; 
+  padding: 0px; 
+  margin: 0px; 
+  float: left;
+  background:url(/assets/images/ic-siderbar.png) no-repeat 0 -103px;
+}
+.sidenav a:hover .ic_stay {background-position: -41px -103px;}
+
+.ic_buy {
+  width: 30px; 
+  height: 30px; 
+  padding: 0px; 
+  margin: 0px; 
+  float: left;
+  background:url(/assets/images/ic-siderbar.png) no-repeat -0 -140px;
+}
+.sidenav a:hover .ic_buy {background-position: -41px -140px;}
+
+.ic_news {
+  width: 30px; 
+  height: 30px; 
+  padding: 0px; 
+  margin: 0px; 
+  float: left;
+  background:url(/assets/images/ic-siderbar.png) no-repeat -0 -176px;
+}
+.sidenav a:hover .ic_news {background-position: -41px -176px;}
+
+.ic_serve {
+  width: 30px; 
+  height: 30px; 
+  padding: 0px; 
+  margin: 0px; 
+  float: left;
+  background:url(/assets/images/ic-siderbar.png) no-repeat -0 -210px;
+}
+.sidenav a:hover .ic_serve {background-position: -41px -210px;}
+
+.ic_register {
+  width: 30px; 
+  height: 30px; 
+  padding: 0px; 
+  margin: 0px; 
+  float: left;
+  background:url(/assets/images/ic-siderbar.png) no-repeat -0 -242px;
+}
+.sidenav a:hover .ic_register {background-position: -41px -242px;}
+
+#main {transition: margin-left .5s; padding: 16px; border-color: red 2px;}
+.card{border-color: blue;}
+
+.mat-badge-medium .mat-badge-content {width: 18px; height: 18px; line-height: 18px; font-size: 12px;}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

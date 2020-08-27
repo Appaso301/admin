@@ -1,0 +1,9 @@
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
+.voffset2 { margin-top: 20px; }
+.voffset5 { margin-top: 50px; }
+.voffset9 { margin-top: 150px; }

@@ -1,0 +1,35 @@
+html,body { height: 100%; }
+
+body{
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-align: center;
+	-ms-flex-pack: center;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+}
+
+form{
+	padding-top: 10px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.card-title{ font-weight:200; }
+
+.btn{
+	font-size: 14px;
+	margin-top:20px;
+}
+
+.login-form{ 
+	width:420px;
+	margin:30px;
+}
+
+span{
+	font-size:14px;
+}

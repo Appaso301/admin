@@ -1,0 +1,39 @@
+<div class="sidenav_container"  [@onSideNavChange]="sideNavState ? 'open' : 'close'">
+  <div fxLayout="column" fxLayoutGap="10px" style="height: 100%;">
+      <mat-nav-list>
+        <div id="mySidenav" class="sidenav">
+          <button>
+            <a [routerLink]="['dashboard']" routerLinkActive="router-link-active">
+              <span class="ic_home"></span> Dashboard
+            </a>
+          </button>
+          <button>
+            
+              <a href="" title=""> <span><img src="assets/img/my-profile.png"  class="img-fluid float-left" alt="Responsive image" width="20px" height="20px"></span>My Profile </a>
+          </button>
+          <button>
+            <a routerLink="visit"> <span><img src="assets/img/about-school.png"  class="img-fluid float-left" alt="Responsive image" width="20px" height="20px"></span>About School </a>
+          </button>
+          <button>
+              <a href="" title=""> <span><img src="assets/img/help-and-support.png"  class="img-fluid float-left" alt="Responsive image" width="20px" height="20px"></span>Help and Support </a>
+          </button>
+          <button>
+              <a href="" title=""> <span><img src="assets/img/settings.png"  class="img-fluid float-left" alt="Responsive image" width="20px" height="20px"></span>Setting </a>
+          </button>
+          <button>
+              <a href="" title=""> <span><img src="assets/img/logout.png"  class="img-fluid float-left" alt="Responsive image" width="20px" height="20px"></span>Logout </a>
+          </button>
+
+        
+        </div>
+      </mat-nav-list>
+  </div>
+
+  <span class="spacer"></span>
+  <!-- <div fxLayout="row" fxLayoutAlign="end center" style="padding: 0px 10px;">
+    <button mat-icon-button (click)="onSinenavToggle()">
+      <mat-icon *ngIf="sideNavState">arrow_left</mat-icon>
+      <mat-icon *ngIf="!sideNavState">arrow_right</mat-icon>
+    </button>
+  </div> -->
+</div>

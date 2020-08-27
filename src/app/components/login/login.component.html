@@ -1,0 +1,78 @@
+<div class="container">
+  <div class="row" style="display: flex; justify-content: center;">
+    <div class="col-2">
+      <img src="assets/img/logo.png" class="img-fluid img-thumbnail" alt="40x40">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="card card-signin my-6">
+        <div class="card-body">
+          <h5 class="card-title text-center">Sign In</h5>
+          <form class="form-signin" [formGroup]="form">
+            <div class="form-label-group">
+              <input  formControlName="email" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+              <!-- <label for="inputEmail">Email address</label> -->
+            </div>
+
+            <div class="form-label-group mt-3">
+              <input type="password" formControlName="password" [type]="hide ? 'password' : 'text'" id="inputPassword" class="form-control" placeholder="Password" required>
+              <!-- <label for="inputPassword">Password</label> -->
+            </div>
+
+            <div class="custom-control custom-checkbox mb-3 mt-2">
+              <input type="checkbox"  class="custom-control-input" id="customCheck1" >
+              <label class="custom-control-label" for="customCheck1">Remember password</label>
+            </div>
+            <div class="row">
+              <div class="col"><button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" (click)="login()">Login</button></div>
+              <div class="col"> <button class="btn btn-lg btn-primary btn-block text-uppercase cancelbtn"
+                  type="submit">Cancel</button></div>
+            </div>
+            <div class="row">
+              <div class="col"><span class="psw">Forgot <a href="#">password?</a></span></div>
+            </div>
+</form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+  <!-- Footer Elements -->
+  <div class="container">
+    <div class="form-group">
+      <div class="row">
+        <div class="col"><label for="lbl_Standard">
+            <h6><a href="https://jayapins.com/"> Why JayaPins</a></h6>
+          </label></div>
+        <div class="col"><label for="lbl_Division">
+            <h6> <a href="https://jayapins.com/about-us/"> About US</a></h6>
+          </label></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h6>We completely feel that only customer satisfaction can be the story behind success of any company that's
+            why we follow our own standards to satisfy the customer.</h6>
+        </div>
+        <div class="col">
+          <h6>Our service is as unique as each client. We understand the demands of business as we get to know your
+            company requirements. We bring experience, a fresh perspective, and cost effective strategies to solve your
+            issues current and emerging IT challenges.</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer Elements -->
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">
+    <h6>© 2020 Copyright:
+      <a href="https://jayapins.com/"> JayaPins infotech pvt Ltd</a>
+    </h6>
+  </div>
+  <!-- Copyright -->
+</footer>

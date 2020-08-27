@@ -1,0 +1,14 @@
+.header { box-shadow: 0px 0px 10px #AEAEAE26; height: 65px;border-bottom:1px solid black;}
+.left {margin: 0px; padding: 0; display: inline-block;}
+.left .logo {margin: 0px; padding: 0; display: inline-block;width: 100%;}
+.right {margin: 0px; padding: 0; float:right; text-align: right; width: 100%;}
+.ic_notification {margin: 0px 20px 0px 0px; padding: 0; display: inline-block;}
+.ic_notification .mat-badge-medium .mat-badge-content {width: 20px; height: 20px; line-height: 20px;}
+.ic_view {margin: 0px 0px 0px 0px; padding: 0; display: inline-block;}
+.user_profile  {display: inline-block; margin: 0px 0px 0px 15px;}
+.userPic {width: 25px; height: 25px; display: inline-block; float: right; }
+.userPic img {width: 25px; height: 25px; display: inline-block;}
+.user_btn  {line-height: normal; float: left; font-size: 15px; text-align: center; color: #677798; margin: 5px 0px 0px; font-weight: normal;}
+.user_btn:hover, .user_btn:focus {background: none;}
+.ic_menu {width: 25px; height: 25px; display: inline-block; margin: 0px 10px 0px 0px;}
+.option{display: inline-block;float: right;margin-right: 500px;}
